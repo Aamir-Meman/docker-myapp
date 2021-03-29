@@ -1,1 +1,1 @@
-# docker-myapp for learning purspose
+# docker-myapp for training
