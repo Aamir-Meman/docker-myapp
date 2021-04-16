@@ -8,7 +8,8 @@ pipeline {
             
             steps{
                echo "git downloading.."
-               
+               git 'https://github.com/Aamir-Meman/docker-myapp.git'
+               stash includes: '*', name: 'myapp' 
             }
         }
     }
